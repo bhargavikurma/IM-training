@@ -9,7 +9,8 @@ int main()
     {  
         for (c = 0; c <= (n - i - 2); c++)
         printf(" ");  
-        for (c = 0; c <= i; c++) printf("%ld ", factorial(i) / (factorial(c) * factorial(i - c)));  
+        for (c = 0; c <= i; c++)
+            printf("%ld ", factorial(i) / (factorial(c) * factorial(i - c)));  
         printf("\n");  
     }  
     return 0;  
